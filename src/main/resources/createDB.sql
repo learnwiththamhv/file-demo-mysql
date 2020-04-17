@@ -1,3 +1,11 @@
+CREATE DATABASE  IF NOT EXISTS `file_demo`;
+USE `files`;
+--
+-- Table structure for tables `files`
+--
+
+DROP TABLE IF EXISTS `files`;
+
 CREATE TABLE file_demo.files (
 	`id` varchar(255) NOT NULL,
 	`file_name` varchar(255) DEFAULT NULL,
